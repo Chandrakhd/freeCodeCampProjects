@@ -1,0 +1,119 @@
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:regular,500,600,700,800,900,italic,500italic,600italic,700italic,800italic,900italic);
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f0f6ff;
+
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  max-width: 800px;
+  margin: 2rem auto;
+}
+.survey_card {
+  background-color: #fff;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.heading {
+  text-align: center;
+  font-family: "Playfair Display";
+  background-color: #483eff;
+  padding: 1rem;
+}
+#title {
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: #f3f3f3;
+}
+#description {
+  max-width: 500px;
+  margin: 0 auto;
+  font-size: 1rem;
+  color: #c8cbde;
+}
+
+#survey-form {
+  padding: 2rem 2rem;
+}
+fieldset {
+  border: none;
+  margin-bottom: 1.8rem;
+  background-color: #ededed67;
+  padding: 1rem;
+  border-radius: 10px;
+}
+.section_title,
+.user_info label {
+  display: block;
+  margin-bottom: 6px;
+  color: #02295a;
+  font-family: "Playfair Display";
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.user_info input,
+.how select,
+textarea {
+  width: 100%;
+  min-height: 2rem;
+  font-family: inherit;
+}
+
+input::placeholder {
+  font-family: inherit;
+  color: #63626267;
+}
+
+.like_label,
+.repairselectLabel {
+  display: block;
+  margin-bottom: 12px;
+  font-size: 1rem;
+  color: #000;
+  font-weight: 400;
+}
+.like input,
+.type_of_repair input {
+  margin-right: 8px;
+}
+
+.rate {
+  margin-bottom: 2rem;
+}
+
+.rating span {
+  cursor: pointer;
+  background-color: #63626267;
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 2;
+  color: #ffff;
+}
+
+input[type="submit"] {
+  padding: 0.8rem 3rem;
+  border: none;
+  background-color: #483eff;
+  color: #fff;
+  font-size: 1rem;
+  border-radius: 4px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+input[type="submit"]:hover {
+  background-color: #3932c1;
+}
